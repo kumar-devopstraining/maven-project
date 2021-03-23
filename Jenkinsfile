@@ -1,6 +1,6 @@
 node{
 stage('scm checkout'){
-git 'https://github.com/kumar-devopstraining/maven-project.git'
+git 'https://github.com/kumar-devopstraining/maven-project'
 }
 stage('package'){
 define mvnhome = tool name: 'maven', type: 'maven'
