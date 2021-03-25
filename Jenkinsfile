@@ -6,7 +6,4 @@ stage('package'){
 def mvnhome = tool name: 'maven', type: 'maven'
 sh "${mvnhome}/bin/mvn package"
 }
-  stage('test'){
-  echo "this webhook test"
-  }
 }
